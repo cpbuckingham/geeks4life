@@ -1,0 +1,19 @@
+{
+  "name": "html5up-forty",
+  "version": "1.0.0",
+  "description": "Forty by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpbuckingham/geeks4life.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpbuckingham/geeks4life/issues"
+  },
+  "homepage": "https://github.com/cpbuckingham/geeks4life#readme"
+}
