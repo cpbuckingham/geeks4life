@@ -1,18 +1,41 @@
 {
-  "name": "html5up-forty",
+  "name": "summer-truth",
   "version": "1.0.0",
-  "description": "Forty by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
-  "main": "index.html",
+  "description": "My app description",
   "scripts": {
+    "deploy": "npm test && git push heroku master",
+    "start": "node server.js",
+    "test": "npm run test:server && npm run test:client",
+    "test:client": "karma start --single-run",
+    "test:server": "mocha --recursive"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cpbuckingham/geeks4life.git"
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "bookshelf": "^0.9.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-validator": "^2.20.4",
+    "knex": "^0.10.0",
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.3.0",
+    "pg": "^4.5.1"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cpbuckingham/geeks4life/issues"
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^0.5.5",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.7",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^1.2.0"
   },
-  "homepage": "https://github.com/cpbuckingham/geeks4life#readme"
+  "engines": {
+    "node": "6.1.0"
+  }
 }
