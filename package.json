@@ -2,7 +2,7 @@
   "name": "html5up-forty",
   "version": "1.0.0",
   "description": "Forty by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node ./bin/www"
   },
